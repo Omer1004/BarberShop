@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="262.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.View">
+   <children>
+      <Button fx:id="bDeleteAppointment_CDA" layoutX="442.0" layoutY="105.0" mnemonicParsing="false" onAction="#bDeleteAppointment_CDA_Clicked" text="delete appointment" />
+      <Label layoutX="213.0" layoutY="6.0" text="Customer appointment">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="bCancel_CDA" layoutX="442.0" layoutY="157.0" mnemonicParsing="false" onAction="#bCancel_CDA_Clicked" text="cancel" />
+      <Text fx:id="TCostumerAppointment" layoutX="29.0" layoutY="102.0" stroke="#e41b1b" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="315.7366943359375" />
+      <Button fx:id="bDAshowAppointment" layoutX="441.0" layoutY="196.0" mnemonicParsing="false" onAction="#bDAshowAppointmentClicked" text="show appointment" />
+   </children>
+</AnchorPane>
